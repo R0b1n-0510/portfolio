@@ -2,8 +2,8 @@ import "./AboutContent.css"
 
 import React from 'react'
 import { Link } from "react-router-dom"
-import Img1 from "../assets/five.jpg"
-import Img2 from "../assets/six.jpg"
+import Img1 from "../../assets/five.jpg"
+import Img2 from "../../assets/six.jpg"
 
 const AboutContent = () => {
   return (

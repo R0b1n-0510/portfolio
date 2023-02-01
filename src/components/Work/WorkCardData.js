@@ -1,6 +1,6 @@
-import pro1 from "../assets/two.jpg"
-import pro2 from "../assets/eight.jpg"
-import pro3 from "../assets/nine.jpg"
+import pro1 from "../../assets/two.jpg"
+import pro2 from "../../assets/eight.jpg"
+import pro3 from "../../assets/nine.jpg"
 
 const ProjectCardData = [{
     imgsrc: pro1,

@@ -2,7 +2,7 @@ import "./Footer.css"
 
 import React from 'react'
 
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
+import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -26,13 +26,11 @@ const Footer = () => {
 
             <div className="right">
                 <h4>About me</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 unde, architecto, officiis incidunt eaque doloribus, eos
-                  deleniti sint quisquam voluptatem earum fugiat vitae!</p>
+                <p>I am a dynamic professional with technical proficiency in web development technologies - HTML & CSS, Javascript and React.js</p>
                 <div className="social">
                 <FaFacebook size={30} style={{ color:"#fff", marginRight: "1rem" }} />  
-                <FaTwitter size={30} style={{ color:"#fff", marginRight: "1rem" }} />  
-                <FaLinkedin size={30} style={{ color:"#fff", marginRight: "1rem" }} />  
+                <a href="https://github.com/R0b1n-0510"><FaGithub size={30} style={{ color:"#fff", marginRight: "1rem" }} /></a>  
+                <a href="https://www.linkedin.com/in/the-robinsingh"><FaLinkedin size={30} style={{ color:"#fff", marginRight: "1rem" }} /></a>  
                 </div>
             </div>
         </div>

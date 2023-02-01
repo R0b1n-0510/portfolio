@@ -8,7 +8,10 @@
 }
 
 body{
-  background: #000;
+  /* background: linear-gradient(to top left, #e8b17a 0%, #000000 100%); */
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #a48c87 8%, #9f7928 30%, #5f4e26 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, black 0%, rgb(103, 98, 98) 8%, #a68c45 25%, #5d4a1f 62.5%, #382a0a 100%);
+  /* background: #000; */
 }
 
 h1, h4, p, a{

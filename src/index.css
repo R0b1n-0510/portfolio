@@ -8,9 +8,9 @@
 }
 
 body{
-  /* background: linear-gradient(to top left, #e8b17a 0%, #000000 100%); */
-  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #a48c87 8%, #9f7928 30%, #5f4e26 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, black 0%, rgb(103, 98, 98) 8%, #a68c45 25%, #5d4a1f 62.5%, #382a0a 100%);
+  background: linear-gradient(to top left, #c9f2f7 0%, black);
+  /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #a48c87 8%, #9f7928 30%, #5f4e26 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, black 0%, rgb(103, 98, 98) 8%, #a68c45 25%, #5d4a1f 62.5%, #382a0a 100%); */
   /* background: #000; */
 }
 
@@ -27,20 +27,22 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(248, 217, 15);
-  color: #222;
-  border: 1px solid #fff;
+  background: #222;
+  /* color: -webkit-gradient(linear, left top, left bottom, from(#85f0fe), to(#c9f2f7)); */
+  border: 1px solid #79efff;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 0.3rem;
 }
 
 .btn-light{
   background: transparent;
-  color: #fff;
+  color: #79efff; 
+  /* color: #c9f2f7; */
 }
 
 .btn:hover{
   background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  color: #c9f2f7;
   transition: 0.3s;
 }

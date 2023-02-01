@@ -40,6 +40,8 @@
 
 .pro-btns .btn{
     padding: 0.5rem 1rem;
+    width: 120px;
+    text-align: center;
 }
 
 @media screen and (max-width: 740px) {

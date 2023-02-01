@@ -27,6 +27,15 @@
     font-weight: 500;
 }
 
+.nav-menu li a:hover{
+    background: transparent;
+    color: #c9f2f7;
+    border: 1px solid #79efff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
 .hamburger{
     display: none;
 }

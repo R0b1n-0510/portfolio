@@ -5,12 +5,12 @@ import { Link } from "react-router-dom"
 import Img1 from "../../assets/five.jpg"
 import Img2 from "../../assets/six.jpg"
 
-const AboutContent = () => {
+const AboutContent = (props) => {
   return (
     <div className="about">
         <div className="left">
-            <h1>Who Am I</h1>
-            <p>I am a dynamic professional with technical proficiency in web development technologies - HTML & CSS, Javascript and React.js</p>
+            <h1>{props.heading}</h1>
+            <p>{props.text}</p>
             <Link to="/contact">
                 <button className="btn">Contact</button>
             </Link>

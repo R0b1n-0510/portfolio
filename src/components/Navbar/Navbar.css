@@ -24,16 +24,18 @@
 
 .nav-menu li a{
     font-size: 1.2rem;
-    font-weight: 500;
+    /* border: 1px solid transparent; */
+    font-weight: 300;
+    transition: 300ms ease;
 }
 
 .nav-menu li a:hover{
     background: transparent;
-    color: #c9f2f7;
-    border: 1px solid #79efff;
-    font-weight: 600;
+    color: #45d8eb;
+    /* border-color: #79efff; */
     cursor: pointer;
     border-radius: 0.3rem;
+    transition: 300ms ease;
 }
 
 .hamburger{

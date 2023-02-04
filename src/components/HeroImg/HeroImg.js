@@ -2,6 +2,7 @@ import "./HeroImg.css"
 import React from 'react'
 import IntroImg from "../../assets/four.jpg"
 import { Link } from "react-router-dom"
+import Resume from "../../assets/Resume.pdf"
 
 const HeroImg = () => {
   return (
@@ -13,7 +14,8 @@ const HeroImg = () => {
         <p>HI, I'M A WEB DEVELOPER</p>
         <h1>React Developer</h1>
         <div>
-            <Link to="/project" className="btn">Projects</Link>
+            {/* <a href="ROBIN's Resume-1.pdf" download="ROBIN's Resume-1.pdf" className="btn">Resume</a> */}
+            <a href={Resume} target="_blank" rel="noopener noreferrer" className="btn">Resume</a>
             <Link to="/contact" className="btn btn-light">Contact</Link>
         </div>
         </div>

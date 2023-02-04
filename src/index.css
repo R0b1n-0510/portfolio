@@ -46,3 +46,25 @@ ul{
   color: #c9f2f7;
   transition: 0.3s;
 }
+
+.hover-line {
+  position: relative;
+  display: inline-block;
+  line-height: inherit;
+}
+.hover-line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 1px;
+  background:#45ebe6;
+  border-radius: 4px;
+  scale: 0 1;
+  transform-origin: left;
+  transition: scale 0.25s;
+}
+.hover-line:hover::before {
+  scale: 1;
+}

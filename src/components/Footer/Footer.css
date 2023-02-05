@@ -49,6 +49,7 @@ h4{
 
 p{
     font-size: 1.2rem;
+    font-weight: 200;
 }
 
 @media screen and (max-width: 640px) {

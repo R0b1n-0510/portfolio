@@ -12,7 +12,7 @@ const HeroImg = () => {
         </div>
         <div className="content">
         <p>HI, I'M A WEB DEVELOPER</p>
-        <h1>MERN STACK</h1>
+        <h1>MERN DEVELOPER</h1>
         <div>
             {/* <a href="ROBIN's Resume-1.pdf" download="ROBIN's Resume-1.pdf" className="btn">Resume</a> */}
             <a href={Resume} target="_blank" rel="noopener noreferrer" className="btn">Resume</a>

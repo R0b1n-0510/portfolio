@@ -17,10 +17,10 @@ const Footer = () => {
                 </div>
                 </div>
                 <div className="phone">
-                    <h4><FaPhone size={20} style={{ color:"#fff", marginRight: "2rem" }} />+91-8076427841</h4>
+                <h4><a href="callto:+918076427841"><FaPhone size={20} style={{ color:"#fff", marginRight: "2rem" }} />+91-8076427841</a></h4>
                 </div>
                 <div className="email">
-                    <h4><FaMailBulk size={20} style={{ color:"#fff", marginRight: "2rem" }} />robinsn05@gmail.com</h4>  
+                <h4><a href="mailto:robinsn05@gmail.com"><FaMailBulk size={20} style={{ color:"#fff", marginRight: "2rem" }} />robinsn05@gmail.com</a></h4>  
                 </div>
             </div>
 

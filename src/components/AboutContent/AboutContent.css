@@ -1,6 +1,7 @@
 .about{
     width: 100%;
-    margin: 3rem 0;
+    max-width: 1500px;
+    margin: 3rem auto;
     display: flex;
     align-items: center;
     justify-content: center;

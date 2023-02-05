@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div className={ color ? "header header-bg" : "header" }>
         <Link className="hover-line" to="/">
-            <h1>Robin Singh.</h1>
+            <h1 className="logo">Robin Singh.</h1>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>

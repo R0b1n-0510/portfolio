@@ -15,6 +15,9 @@
 .project-card{
     background: #1a1919;
     padding: 1.2rem 1rem;
+    border-radius: 0.8rem;
+    opacity: 0.9;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .project-card img{
